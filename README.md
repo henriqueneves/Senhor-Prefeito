@@ -1,8 +1,8 @@
 # Projeto: “Senhor prefeito? ”
 Versão: 1.0
-
-![Alt text](Images/icon.png?raw=true "Title")
-
+<center>
+	![Alt text](Images/icon.png?raw=true "Logo do senhor prefeito")
+</center>
 # Motivação: 
 Um dos trabalhos mais árduos na gestão de uma cidade é manter suas vias urbanas em um bom estado. Diversos são os fatores que contribuem para o degradamento das ruas, entre eles podemos citar: buracos, pedregulhos soltos, bueiros (bocas-de-lobo) entupidos, má sinalização, lixo, pontos de enchente, iluminação precária ou danificada. 
 Em cidades maiores é praticamente impossível ter um controle de todos estes problemas, tornando essencial a conscientização da população em denunciar estas disformidades. Porém, ainda faltam recursos que tornem estas denúncias algo fácil e rápido.
@@ -12,6 +12,8 @@ Outro problema de não se ter mapeado as deformidades nas vias urbanas é a falt
 Pensando em algo prático, de acesso a todos e que tenha um retorno a população em geral, propõe-se o desenvolvimento de um portal que sirva como mapeamento de problemas urbanos em vias públicas. Este portal traria vantagens tanto para os órgãos responsáveis pela manutenção das vias, quanto para a população em geral, que poderia averiguar determinado percurso antes de efetua-lo e acompanhar o andamento de possíveis reparos. 
 Descrição de Funcionamento:
 Ao entrar no site, sem precisar efetuar nenhum tipo de autenticação, o usuário terá como visualizar um mapa que contém marcadores com ocorrências de problemas registrados por usuários. Será possível se cadastrar no sistema, podendo assim criar novas ocorrências.
+
+![Alt text](Images/demonstracao.jpg?raw=true "Print do sistema")
 
 # Categorias aceitas no sistema:
 •	Buraco
