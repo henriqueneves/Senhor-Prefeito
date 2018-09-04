@@ -1,7 +1,7 @@
 # Projeto: “Senhor prefeito? ”
 Versão: 1.0
 <p align="center">
-	![Alt text](Images/icon.png?raw=true "Logo do senhor prefeito")
+	  <img src="https://raw.githubusercontent.com/henriqueneves/Senhor-Prefeito/master/Images/icon.png">
 </p>
 # Motivação: 
 Um dos trabalhos mais árduos na gestão de uma cidade é manter suas vias urbanas em um bom estado. Diversos são os fatores que contribuem para o degradamento das ruas, entre eles podemos citar: buracos, pedregulhos soltos, bueiros (bocas-de-lobo) entupidos, má sinalização, lixo, pontos de enchente, iluminação precária ou danificada. 
