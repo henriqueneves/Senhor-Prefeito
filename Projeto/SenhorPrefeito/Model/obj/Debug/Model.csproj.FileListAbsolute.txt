@@ -1,0 +1,4 @@
+C:\Users\Henrique\OneDrive\Documentos\Senhor Prefeito\Projeto\SenhorPrefeito\Model\bin\Debug\Model.dll
+C:\Users\Henrique\OneDrive\Documentos\Senhor Prefeito\Projeto\SenhorPrefeito\Model\bin\Debug\Model.pdb
+C:\Users\Henrique\OneDrive\Documentos\Senhor Prefeito\Projeto\SenhorPrefeito\Model\obj\Debug\Model.dll
+C:\Users\Henrique\OneDrive\Documentos\Senhor Prefeito\Projeto\SenhorPrefeito\Model\obj\Debug\Model.pdb

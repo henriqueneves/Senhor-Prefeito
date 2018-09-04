@@ -1,0 +1,4 @@
+C:\Users\Henrique\OneDrive\Documentos\Senhor Prefeito\Projeto\SenhorPrefeito\Controller\bin\Debug\Controller.dll
+C:\Users\Henrique\OneDrive\Documentos\Senhor Prefeito\Projeto\SenhorPrefeito\Controller\bin\Debug\Controller.pdb
+C:\Users\Henrique\OneDrive\Documentos\Senhor Prefeito\Projeto\SenhorPrefeito\Controller\obj\Debug\Controller.dll
+C:\Users\Henrique\OneDrive\Documentos\Senhor Prefeito\Projeto\SenhorPrefeito\Controller\obj\Debug\Controller.pdb

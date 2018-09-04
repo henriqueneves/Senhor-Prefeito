@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "Cadastrar";
+}
+
+<h2>Cadastrar ocorrência</h2>
+
+@Styles.Render("~/Content/Mapa.css")
+<h2>Selecione o local</h2>
+
+
+<div class="campos">
+    <label for="txtEndereco">Buscar Enderereço:</label>
+    <input type="text" id="txtEndereco" name="txtEndereco" />
+    <input type="button" id="btnEndereco" name="btnEndereco" value="Mostrar no mapa" />
+</div>
+
+<div id="map" class="mapa"></div>
+
+<fieldset>
+    <legend>Informações da ocorrência</legend>
+    <ol>
+        <li>
+            <label>Título da ocorrência</label>
+            <input type="text" id="txtEndereco" name="txtEndereco" style="width: 400px;" />
+        </li>
+    </ol>
+    <ol>
+        <li>
+            <label>Tipo de ocorrência</label>
+            <select name="tipo" class="checkbox" >
+                <option value="1">Buraco</option>
+                <option value="2">Pedregulho</option>
+                <option value="3">Bueiro entupido</option>
+                <option value="4">Ponto de enchente</option>
+                <option value="5">Iluminação</option>
+                <option value="6">Sinalização</option>
+                <option value="7">Lixo</option>
+                <option value="8">Vegetação</option>
+
+            </select>
+        </li>
+    </ol>
+    <ol>
+        <li>
+            <label>Descrição da ocorrência</label>
+            <textarea name="txtDescricao" cols="40" rows="5"></textarea>
+        </li>
+    </ol>
+    <input type="submit" value="Registrar" class="left"/>
+</fieldset>
+
+<script async defer
+        src="~/Scripts/jquery-ui-1.8.24.js"></script>
+
+<!-- Maps API Javascript -->
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOKJARfc-_Tj5GPubANAwfh8Y04Gl9DPo&callback=initMap">
+</script>
+
+
+
+<!-- Arquivo de inicialização do mapa -->
+<script async defer
+        src="~/Scripts/CriarOcorrencia.js"></script>

@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = "Início";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <img src="@Url.Content("~/Images/objetivos.png")" class="right imgObjetivo" />
+            <hgroup class="title">
+                <h1>Bem-vindo! Conheça os objetivos do site</h1>
+            </hgroup>
+            
+            <p>
+                <ul>
+                    <li>
+                        O "Senhor Prefeito?" é um portal desenvolvido com o intuito de mapear irregularidades presentes na infraestrutura de nossas cidades.
+                    </li>
+                    <li>
+                        Buracos, má sinalização, iluminação danificada, pontos de alagamento e outros problemas são exemplos de fatores que podem interferir na usabilidade das vias, podendo ocasionar dores de cabeça e acidentes.
+                    </li>
+                    <li>
+                        Assim, o "Senhor Prefeito?" trás uma maneira fácil e rápida de estar registrando estas irregularidades, tornando possível que antes mesmos de efetuarmos determinado percurso, possamos conhecer a situação das vias.
+                    </li>
+                    <li>
+                        A ferramenta também tem como objetivo auxiliar os órgãos responsáveis pela manutenção destas vias, afinal, muitos dos problemas eles nem se quer tem conhecimento. 
+                    </li>
+                </ul> 
+            </p>
+        </div>
+    </section>
+}
+<h3>Como começar?</h3>
+<ol class="round">
+    <li class="one">
+        <h5>O mapa de ocorrências</h5>
+        Este é o ponto central do portal.
+        O mapa de ocorrências possui todos os registros ainda não solucionados que foram informados por nossos usuários. 
+        Nele você pode conferir os problemas presentes na vias e buscar uma rota alternativa mais segura para seu percurso, por exemplo.
+        <a href="@Url.Action("Mapa", "Home")">Ir para o mapa...</a>
+    </li>
+
+    <li class="two">
+        <h5>Registre-se e cadastre ocorrências</h5>
+        O "Senhor Prefeito?" funciona baseado em registros feitos por pessoas como você. Sabe aquele buraco na esquina da sua casa?
+        Então, cadastre-se no site e informe-nos dos problemas que você conhece. 
+        Além de estar ajudando o próximo, você estará aumentando as chances de uma possível solução, lembre-se, o senhor prefeito pode estar de olho no portal.
+        <a href="@Url.Action("Register", "Account")">Cadastrar agora…</a>
+    </li>
+
+    <li class="three">
+        <h5>Opine e sugira correções</h5>
+        Como todo site que está começando, nós também precisamos de conselhos e críticas que auxiliem em nosso aperfeiçoamento. 
+        <a href="@Url.Action("Contact", "Home")">Entre em contato…</a>
+    </li>
+</ol>
+
+
+    <a href="@Url.Action("Mapa", "Home")"><img src="@Url.Content("~/Images/demonstracao.jpg")" class="center demo"/></a>
+    <h1 class="center-text"><a href="@Url.Action("Mapa", "Home")">Acessar mapa</a></h1>
+

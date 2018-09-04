@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Mapa de ocorrências";
+}
+
+
+@Styles.Render("~/Content/Mapa.css")
+<h2>Mapa de ocorrências</h2>
+@section mapa {
+    <div id="map" class="mapa"></div>
+}
+
+<div class="campos">
+    <label for="txtEndereco">Endereço:</label>
+    <input type="text" id="txtEndereco" name="txtEndereco"/>
+    <input type="button" id="btnEndereco" name="btnEndereco" value="Mostrar no mapa"  />
+</div>
+
+<script async defer
+        src="~/Scripts/jquery-ui-1.8.24.js"></script>
+
+<!-- Maps API Javascript -->
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOKJARfc-_Tj5GPubANAwfh8Y04Gl9DPo&callback=initMap">
+</script>
+
+
+
+<!-- Arquivo de inicialização do mapa -->
+<script async defer
+        src="~/Scripts/Mapa.js"></script>

@@ -1,0 +1,71 @@
+﻿@{
+    ViewBag.Title = "Sobre";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>Conheça-nos</h2>
+</hgroup>
+
+<article>
+    <b>Motivação</b>
+    <p>
+        Um dos trabalhos mais árduos na gestão de uma cidade é manter suas vias urbanas em um bom estado. Diversos são os fatores que contribuem para o degradamento das ruas, entre eles podemos citar: buracos, pedregulhos soltos, bueiros (bocas-de-lobo) entupidos, má sinalização, lixo, pontos de enchente, iluminação precária ou danificada. 
+    </p>
+
+    <p>
+        Em cidades maiores é praticamente impossível ter um controle de todos estes problemas, tornando essencial a conscientização da população em denunciar estas disformidades. Porém, ainda faltam recursos que tornem estas denúncias algo fácil e rápido.
+    </p>
+
+    <p>
+        Outro problema de não se ter mapeado as deformidades nas vias urbanas é a falta de segurança principalmente para condutores. Não saber onde há má sinalização ou buracos, por exemplo, ainda ocasiona um grande percentual de acidentes de transito.
+    </p>
+
+    <b>Solução</b>
+
+    <p>
+        Pensando em algo prático, de acesso a todos e que tenha um retorno a população em geral, propõe-se o desenvolvimento de um portal que sirva como mapeamento de problemas urbanos em vias públicas. Este portal traria vantagens tanto para os órgãos responsáveis pela manutenção das vias, quanto para a população em geral, que poderia averiguar determinado percurso antes de efetua-lo e acompanhar o andamento de possíveis reparos. 
+    </p>
+
+    <b>Problemas suportados</b>
+
+    <ol>
+        <li>
+            Buraco
+        </li>
+        <li>
+            Pedregulho
+        </li>
+        <li>
+            Bueiro entupido
+        </li>
+        <li>
+            Ponto de enchente
+        </li>
+        <li>
+            Iluminação
+        </li>
+        <li>
+            Sinalização
+        </li>
+        <li>
+            Lixo
+        </li>
+        <li>
+            Vegetação
+        </li>
+    </ol>
+</article>
+
+<aside>
+    <h3>Mapa do site</h3>
+    <p>
+        Acesso rápido as paginas do site.
+    </p>
+    <ul>
+        <li>@Html.ActionLink("Início", "Index", "Home")</li>
+        <li>@Html.ActionLink("Mapa", "Mapa", "Home")</li>
+        <li>@Html.ActionLink("Sobre", "About", "Home")</li>
+        <li>@Html.ActionLink("Contato", "Contact", "Home")</li>
+    </ul>
+</aside>
