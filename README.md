@@ -1,8 +1,9 @@
 # Projeto: “Senhor prefeito? ”
 Versão: 1.0
 <p align="center">
-	  <img src="https://raw.githubusercontent.com/henriqueneves/Senhor-Prefeito/master/Images/icon.png">
+	  <img src="https://raw.githubusercontent.com/henriqueneves/Senhor-Prefeito/master/Images/logo.png">
 </p>
+ 
 # Motivação: 
 Um dos trabalhos mais árduos na gestão de uma cidade é manter suas vias urbanas em um bom estado. Diversos são os fatores que contribuem para o degradamento das ruas, entre eles podemos citar: buracos, pedregulhos soltos, bueiros (bocas-de-lobo) entupidos, má sinalização, lixo, pontos de enchente, iluminação precária ou danificada. 
 Em cidades maiores é praticamente impossível ter um controle de todos estes problemas, tornando essencial a conscientização da população em denunciar estas disformidades. Porém, ainda faltam recursos que tornem estas denúncias algo fácil e rápido.
